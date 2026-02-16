@@ -38,9 +38,9 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // 2. VERİTABANI BİLGİLERİ (Lütfen bilgilerin doğruluğunu kontrol edin)
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'veritabani-adi');
-define('DB_USER', 'veritabani-user');
-define('DB_PASS', 'veritabani-password');
+define('DB_NAME', 'stkfyt');
+define('DB_USER', 'root');
+define('DB_PASS', 'root');
 
 try {
     $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4";
@@ -56,4 +56,5 @@ try {
 }
 
 date_default_timezone_set('Europe/Istanbul');
+
 
